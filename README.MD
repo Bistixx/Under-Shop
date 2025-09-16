@@ -58,4 +58,5 @@ Simula la estructura de componentes de React (NavBar, CartWidget e ItemListConta
 
 1. Clona el repositorio:
    bash
-   git clone https://github.com/TU-USUARIO/landing-ecommerce.git
+
+   git clone https://github.com/Bistixx/Under-Shop
