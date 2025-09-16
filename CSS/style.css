@@ -69,4 +69,40 @@ body {
     background: #e65c00;
   }
   
+  /* ===== SLIDER ===== */
+  .slider {
+    width: 100%;
+    max-width: 1200px;  /* opcional: no se hace gigante en pantallas grandes */
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .slide {
+    display: none;
+    position: relative;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 400px;       /* 👈 altura uniforme tipo banner */
+    object-fit: cover;   /* 👈 recorta un poco pero se ve prolijo */
+    display: block;
+  } 
+  
+  .caption {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
   

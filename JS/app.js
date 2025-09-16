@@ -1,5 +1,24 @@
 // navbar
 document.getElementById("navbar").innerHTML = NavBar();
 
-// Mensaje de bienvenida
-ItemListContainer("¡Bienvenido a Under Shop!");
+// Slider automático
+document.addEventListener("DOMContentLoaded", () => {
+    // Mostrar productos
+    ItemListContainer("¡TENDENCIA 🔥!");
+  
+    // Slider automático
+    let slides = document.querySelectorAll(".slide");
+    let index = 0;
+  
+    function showSlide(i) {
+      slides.forEach((slide, idx) => {
+        slide.classList.toggle("active", idx === i);
+      });
+    }
+  
+    setInterval(() => {
+      index = (index + 1) % slides.length;
+      showSlide(index);
+    }, 4000); // cada 4 segundos
+  });
+  
