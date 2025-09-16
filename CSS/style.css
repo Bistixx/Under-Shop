@@ -72,7 +72,7 @@ body {
   /* ===== SLIDER ===== */
   .slider {
     width: 100%;
-    max-width: 1200px;  /* opcional: no se hace gigante en pantallas grandes */
+    max-width: 1200px;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 12px;
@@ -89,8 +89,8 @@ body {
   
   .slide img {
     width: 100%;
-    height: 400px;       /* 👈 altura uniforme tipo banner */
-    object-fit: cover;   /* 👈 recorta un poco pero se ve prolijo */
+    height: 400px;
+    object-fit: cover;
     display: block;
   } 
   
@@ -105,4 +105,22 @@ body {
     font-size: 1.2rem;
   }
   
+  /* ===== NAV ===== */
+  nav a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  /* Efecto hover */
+  nav a:hover {
+    background-color: #fff;
+    color: #222;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
   
