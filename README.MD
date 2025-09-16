@@ -22,15 +22,25 @@ Simula la estructura de componentes de React (NavBar, CartWidget e ItemListConta
 ## 📂 Estructura del proyecto
 
 /proyecto
+
 ├── index.html
+
 ├── /css
+
 │ └── style.css
+
 ├── /js
+
 │ ├── app.js
+
 │ ├── navbar.js
+
 │ ├── cartWidget.js
+
 │ └── itemListContainer.js
+
 └── /data
+
 └── productos.json
 
 ---
