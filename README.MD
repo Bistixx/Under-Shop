@@ -1,7 +1,7 @@
 # 🛒 Landing E-commerce
 
 Proyecto de landing page para un e-commerce, creado con **HTML, CSS, JavaScript y JSON**.  
-Simula la estructura de componentes de React (NavBar, CartWidget e ItemListContainer) pero utilizando tecnologías básicas del front-end.  
+Simula la estructura de componentes de React (NavBar, CartWidget, ItemListContainer y Catalogo) pero utilizando tecnologías básicas del front-end.  
 
 ---
 
@@ -10,6 +10,8 @@ Simula la estructura de componentes de React (NavBar, CartWidget e ItemListConta
 - **NavBar**
 - **CartWidget**
 - **ItemListContainer**
+- **Filtros para la busqueda**
+- **Slider con imagenes y frases**
 - **Productos cargados desde un archivo JSON**
 - **Diseño tipo tarjeta de e-commerce**, cada producto tiene:
   - Imagen
@@ -42,6 +44,11 @@ Simula la estructura de componentes de React (NavBar, CartWidget e ItemListConta
 └── /data
 
 └── productos.json
+
+├── /PAGINAS
+
+│ ├── catalogo.html
+
 
 ---
 
