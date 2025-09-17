@@ -153,6 +153,64 @@ body {
   color: #fff;
 }
 
+/* ===== FOOTER ===== */
+.site-footer {
+  background: #222;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.site-footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.site-footer .brand {
+  font-weight: bold;
+}
+
+.site-footer .footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-footer .phone {
+  color: #fff;
+  text-decoration: none;
+  background: #444;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.site-footer .phone:hover {
+  background: #fff;
+  color: #222;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.site-footer .btn-instagram {
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.site-footer .btn-instagram:hover {
+  filter: brightness(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
 /* Enlaces navbar */
 .nav-link {
   color: #fff;
