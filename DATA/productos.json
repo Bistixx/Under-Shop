@@ -68,6 +68,111 @@
       "precio": 150, 
       "imagen": "../IMG/comboGorras.jpg",
       "categoria": "Combos"
-    }       
+    },  
+    { 
+      "id": 11, 
+      "nombre": "Zapatillas Air Force 1 Grey and White", 
+      "precio": 120, 
+      "imagen": "../IMG/air force 1 grey white.jpg",
+      "categoria": "Zapatillas"
+    },  
+    { 
+      "id": 12, 
+      "nombre": "Campus All Black", 
+      "precio": 120, 
+      "imagen": "../IMG/campus all black.jpg",
+      "categoria": "Zapatillas"
+    },  
+    { 
+      "id": 13, 
+      "nombre": "Conjunto Corteiz Negro", 
+      "precio": 150, 
+      "imagen": "../IMG/conjunto corteiz negro.jpg",
+      "categoria": "Conjuntos"
+    },  
+    { 
+      "id": 14, 
+      "nombre": "Conjunto Lino Blanco", 
+      "precio": 90, 
+      "imagen": "../IMG/conjunto lino blanco.jpg",
+      "categoria": "Conjuntos"
+    },  
+    { 
+      "id": 15, 
+      "nombre": "Conjunto LV Negro", 
+      "precio": 650, 
+      "imagen": "../IMG/conjunto LV negro.jpg",
+      "categoria": "Conjuntos"
+    },  
+    { 
+      "id": 16, 
+      "nombre": "Conjunto Nike Deportivo Negro", 
+      "precio": 100, 
+      "imagen": "../IMG/conjunto nike deportivo negro.jpg",
+      "categoria": "Conjuntos"
+    },  
+    { 
+      "id": 17, 
+      "nombre": "Nike Air Force 1 Topo Grey", 
+      "precio": 120, 
+      "imagen": "../IMG/nike air force 1 topo grey.jpg",
+      "categoria": "Zapatillas"
+    },  
+    { 
+      "id": 18, 
+      "nombre": "Nike AIR Negras", 
+      "precio": 120, 
+      "imagen": "../IMG/nike air negras.jpg",
+      "categoria": "Zapatillas"
+    },  
+    { 
+      "id": 19, 
+      "nombre": "Nike Tech Grey", 
+      "precio": 140, 
+      "imagen": "../IMG/nike tech grey.jpg",
+      "categoria": "Conjuntos"
+    },  
+    { 
+      "id": 20, 
+      "nombre": "Nike Tech White", 
+      "precio": 140, 
+      "imagen": "../IMG/nike tech white.jpg",
+      "categoria": "Conjuntos"
+    },  
+    { 
+      "id": 21, 
+      "nombre": "Pantalon Angel x Chrome Hearts", 
+      "precio": 450, 
+      "imagen": "../IMG/pantalon angel chrome hearts.jpg",
+      "categoria": "Pantalones"
+    },  
+    { 
+      "id": 22, 
+      "nombre": "Pantalon Black Storm", 
+      "precio": 110, 
+      "imagen": "../IMG/pantalon rayos negros.jpg",
+      "categoria": "Pantalones"
+    },  
+    { 
+      "id": 23, 
+      "nombre": "Remera FLAME A", 
+      "precio": 60, 
+      "imagen": "../IMG/remera FLAME A.jpg",
+      "categoria": "Remeras"
+    },  
+    { 
+      "id": 24, 
+      "nombre": "Short Denim Tears", 
+      "precio": 90, 
+      "imagen": "../IMG/short denim tears.jpg",
+      "categoria": "Shorts"
+    },  
+    { 
+      "id": 25, 
+      "nombre": "Short Jordan", 
+      "precio": 80, 
+      "imagen": "../IMG/short jordan.jpg",
+      "categoria": "Shorts"
+    }        
 ]
   

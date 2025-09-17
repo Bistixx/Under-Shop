@@ -1,6 +1,6 @@
 function NavBarCatalogo() {
     // Lista de categorías para los filtros
-    const categorias = ['todos', 'Combos', 'Conjuntos', 'Buzos', 'Remeras', 'Pantalones', 'Zapatillas', 'Gorras'];
+    const categorias = ['todos', 'Combos', 'Conjuntos', 'Buzos', 'Remeras', 'Pantalones', 'Shorts', 'Zapatillas', 'Gorras'];
   
     // Crear los botones como HTML
     const filtrosHTML = categorias.map(categoria => {

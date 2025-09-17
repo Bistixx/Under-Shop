@@ -5,9 +5,17 @@ if (currentPage.includes('catalogo.html')) {
   // Página del catálogo
   document.getElementById("navbar").innerHTML = NavBarCatalogo();
   
-  // Mostrar todos los productos al cargar la página
+  // Mostrar productos al cargar la página
   document.addEventListener("DOMContentLoaded", () => {
-      ItemListContainer("Todos los Productos", "todos");
+      // Verificar si hay un parámetro de producto específico
+      const urlParams = new URLSearchParams(window.location.search);
+      const productoId = urlParams.get('producto');
+      
+      if (productoId) {
+          ItemListContainer("Producto", "todos", productoId);
+      } else {
+          ItemListContainer("Todos los Productos", "todos");
+      }
   });
 } else {
   // Página de inicio
@@ -15,9 +23,6 @@ if (currentPage.includes('catalogo.html')) {
   
   // Slider automático para la página de inicio
   document.addEventListener("DOMContentLoaded", () => {
-      // Mostrar productos en la página de inicio
-      ItemListContainer("¡TENDENCIA 🔥!");
-    
       // Slider automático
       let slides = document.querySelectorAll(".slide");
       if (slides.length > 0) {

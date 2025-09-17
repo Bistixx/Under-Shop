@@ -1,11 +1,19 @@
 // Función para mostrar productos filtrados
-async function ItemListContainer(mensaje, categoria = "todos") {
+async function ItemListContainer(mensaje, categoria = "todos", productoId = null) {
     const response = await fetch("../DATA/productos.json");
     const productos = await response.json();
 
     let productosFiltrados = categoria === "todos"
         ? productos
         : productos.filter(p => p.categoria === categoria);
+
+    // Si hay un producto específico, filtrar solo ese producto
+    if (productoId) {
+        productosFiltrados = productos.filter(p => p.id == productoId);
+        if (productosFiltrados.length > 0) {
+            mensaje = productosFiltrados[0].nombre;
+        }
+    }
 
     let html = `<h2>${mensaje}</h2><div class="productos-grid">`;
     productosFiltrados.forEach(p => {
