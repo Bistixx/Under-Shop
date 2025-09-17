@@ -1,6 +1,6 @@
 async function ItemListContainer(mensaje) {
-    const response = await fetch("data/productos.json");
-    const productos = await response.json();
+  const response = await fetch("data/productos.json");
+  const productos = await response.json();
   
     let html = `<h2>${mensaje}</h2><div class="productos-grid">`;
     productos.forEach(p => {
@@ -17,4 +17,3 @@ async function ItemListContainer(mensaje) {
   
     document.getElementById("content").innerHTML = html;
   }
-  

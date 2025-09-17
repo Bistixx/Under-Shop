@@ -1,21 +1,31 @@
 [
     { 
       "id": 1, 
-      "nombre": "Camiseta", 
+      "nombre": "Remera The Castle Brand Blanca", 
       "precio": 20, 
-      "imagen": "img/camiseta.jpg" 
+      "imagen": "../img/camiseta.jpg",
+      "categoria": "Remeras"
     },
     { 
       "id": 2, 
-      "nombre": "Pantalón", 
-      "precio": 35, 
-      "imagen": "img/pantalon.jpg" 
+      "nombre": "Baggy Jean Cargo Oscuro", 
+      "precio": 40, 
+      "imagen": "../img/pantalon.jpg",
+      "categoria": "Pantalones"
     },
     { 
       "id": 3, 
-      "nombre": "Zapatillas", 
-      "precio": 50, 
-      "imagen": "img/zapas.jpg" 
-    }
-  ]
+      "nombre": "Jordan 4 Retro Black Cat", 
+      "precio": 140, 
+      "imagen": "../img/zapas.jpg",
+      "categoria": "Zapatillas" 
+    },
+    { 
+      "id": 4, 
+      "nombre": "Gorra New Era NY", 
+      "precio": 60, 
+      "imagen": "../img/NewEraNY.jpg",
+      "categoria": "Gorras"
+    }       
+]
   
