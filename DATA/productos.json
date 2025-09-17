@@ -3,29 +3,71 @@
       "id": 1, 
       "nombre": "Remera The Castle Brand Blanca", 
       "precio": 20, 
-      "imagen": "../img/camiseta.jpg",
+      "imagen": "../IMG/camiseta.jpg",
       "categoria": "Remeras"
     },
     { 
       "id": 2, 
       "nombre": "Baggy Jean Cargo Oscuro", 
       "precio": 40, 
-      "imagen": "../img/pantalon.jpg",
+      "imagen": "../IMG/pantalon.jpg",
       "categoria": "Pantalones"
     },
     { 
       "id": 3, 
       "nombre": "Jordan 4 Retro Black Cat", 
       "precio": 140, 
-      "imagen": "../img/zapas.jpg",
+      "imagen": "../IMG/zapas.jpg",
       "categoria": "Zapatillas" 
     },
     { 
       "id": 4, 
       "nombre": "Gorra New Era NY", 
       "precio": 60, 
-      "imagen": "../img/NewEraNY.jpg",
+      "imagen": "../IMG/NewEraNY.jpg",
       "categoria": "Gorras"
+    },
+    { 
+      "id": 5, 
+      "nombre": "Conjunto Denim Tears Negro y Blanco", 
+      "precio": 200, 
+      "imagen": "../IMG/conjunto 1.jpg",
+      "categoria": "Conjuntos"
+    },
+    { 
+      "id": 6, 
+      "nombre": "Buzo Denim Tears Negro y Blanco", 
+      "precio": 120, 
+      "imagen": "../IMG/buzo1.jpg",
+      "categoria": "Buzos"
+    },  
+    { 
+      "id": 7, 
+      "nombre": "Pantalon Denim Tears Negro y Blanco", 
+      "precio": 80, 
+      "imagen": "../IMG/pantalon2.jpg",
+      "categoria": "Pantalones"
+    },  
+    { 
+      "id": 8, 
+      "nombre": "Gorra New Era LA GRIS", 
+      "precio": 60, 
+      "imagen": "../IMG/NewEraLA.jpg",
+      "categoria": "Gorras"
+    },  
+    { 
+      "id": 9, 
+      "nombre": "Gorra New Era LA AZUL", 
+      "precio": 60, 
+      "imagen": "../IMG/NewEraLA BLUE.jpg",
+      "categoria": "Gorras"
+    },  
+    { 
+      "id": 10, 
+      "nombre": "Combo Gorras New Era", 
+      "precio": 150, 
+      "imagen": "../IMG/comboGorras.jpg",
+      "categoria": "Combos"
     }       
 ]
   
